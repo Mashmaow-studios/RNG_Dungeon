@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!-- saved from url=(0027)http://strawpoll.me/5571905 -->
+<html class="no-js"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Straw Poll</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="http://static.strawpoll.me/images/icon.ico">
+
+    <link rel="stylesheet" href="./Straw Poll_files/d5a180e9.main.css">
+    <link href="./Straw Poll_files/css" rel="stylesheet" type="text/css">
+<style type="text/css"></style></head>
+  <body>
+    <!--[if lt IE 9]>
+      <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> to better experience this site.</p>
+    <![endif]-->
+
+    <div class="notification-container ng-scope ng-hide" ng-show="_data.message || _data.template" notification=""><div class="notification-background" ng-click="_data.message = _data.template = null"></div><div class="notification"><span ng-bind-html="_data.message" class="ng-binding"></span><!-- ngInclude: _data.template --></div></div>
+
+    <header>
+      <a class="primary" href="http://strawpoll.me/">Straw Poll</a>
+    </header>
+    
+  
+  
+    
+
+    <!-- Banner - Responsive -->
+    <div class="adContainer">
+      <script src="./Straw Poll_files/ga.js"></script><script async="" src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- Banner - Responsive -->
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3074146257705618" data-ad-slot="3370456399" data-ad-format="auto"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+    
+    
+  
+
+
+    <main>
+      
+<div class="container vote ng-scope" ng-controller="VoteController as voteController">
+  <section>
+    <div class="pollHeader">
+      <span ng-bind="voteController.poll.title" class="ng-binding">Wich character should we use in da gajme?</span>
+      <!-- ngIf: !voteController.poll.multi --><small ng-if="!voteController.poll.multi" class="ng-scope">(Pick one)</small><!-- end ngIf: !voteController.poll.multi -->
+      <!-- ngIf: voteController.poll.multi -->
+      <a class="embedPoll pointer" ng-click="voteController.notification.show(&#39;Copy and paste the HTML below to embed this poll in your webpage: &lt;br&gt;&lt;br&gt;&lt;small&gt;&amp;lt;iframe src=&amp;quot;http://strawpoll.me/embed_1/5571905&amp;quot; style=&amp;quot;width: 600px; height: 390px; border: 0;&amp;quot;&amp;gt;Loading poll...&amp;lt;/iframe&amp;gt;&lt;/small&gt;&#39;)">embed</a>
+    </div>
+
+    <div class="pollBody">
+      
+      <div class="pointer" ng-click="voteController.toggleVote(0)">
+        <span class="optionNumber optionCheckbox" ng-class="{&#39;checked&#39;: voteController.votes &amp;&amp; voteController.votes.indexOf(0) != -1}"></span>
+        <span class="optionText ng-binding" ng-bind="voteController.poll.options[0]">Character body 1</span>
+      </div>
+      
+      <div class="pointer" ng-click="voteController.toggleVote(1)">
+        <span class="optionNumber optionCheckbox" ng-class="{&#39;checked&#39;: voteController.votes &amp;&amp; voteController.votes.indexOf(1) != -1}"></span>
+        <span class="optionText ng-binding" ng-bind="voteController.poll.options[1]">Character body 2</span>
+      </div>
+      
+      <div class="pointer" ng-click="voteController.toggleVote(2)">
+        <span class="optionNumber optionCheckbox" ng-class="{&#39;checked&#39;: voteController.votes &amp;&amp; voteController.votes.indexOf(2) != -1}"></span>
+        <span class="optionText ng-binding" ng-bind="voteController.poll.options[2]">Character body 3</span>
+      </div>
+      
+      <div class="pointer" ng-click="voteController.toggleVote(3)">
+        <span class="optionNumber optionCheckbox" ng-class="{&#39;checked&#39;: voteController.votes &amp;&amp; voteController.votes.indexOf(3) != -1}"></span>
+        <span class="optionText ng-binding" ng-bind="voteController.poll.options[3]">Character body 4</span>
+      </div>
+      
+    </div>
+
+    <div class="pollFooter clearfix">
+
+      <button class="left" ng-disabled="voteController.votes.length == 0" ng-click="voteController.castVote()" disabled="disabled">Vote</button>
+      <button class="right" ng-click="voteController.goToResults()">Results</button>
+    </div>
+  </section>
+</div>
+
+    </main>
+
+    <footer>
+      app created by <a href="https://twitter.com/dandirks">@dandirks</a>
+      <div class="links">
+        <!-- <a href="/recent-polls">Recent Polls</a> | -->
+        <a href="http://static.strawpoll.me/tos.html">Terms of Service</a> |
+        <a href="http://static.strawpoll.me/privacy-policy.html">Privacy Policy</a> |
+        <a href="https://docs.google.com/forms/d/1d2Z_5zarYI2nw8WvGqrpZnMdO_ntF3pmE2ZX-8qwRL0/viewform" target="_blank">Report Abuse</a> |
+        <a href="https://github.com/strawpoll/strawpoll/issues" target="_blank">Issue Tracker</a>
+      </div>
+    </footer>
+
+    
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      var _gaq=[['_setAccount','UA-28052843-1'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src='//www.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+
+    <script src="./Straw Poll_files/angular.min.js"></script>
+    <script src="./Straw Poll_files/angular-sanitize.min.js"></script>
+
+    <script src="./Straw Poll_files/d3.min.js"></script>
+
+
+    <script src="./Straw Poll_files/2faaf33a.scripts.js"></script>
+
+    
+    
+
+
+
+<script type="text/javascript">
+  angular.module('spCore')
+    .constant('pollId', 5571905)
+    .run(function($http) {
+      $http.defaults.cache.put('/api/v2/polls/5571905', [200, angular.element('<span>{\&quot;title\&quot;:\&quot;Wich character should we use in da gajme?\&quot;,\&quot;permissive\&quot;:false,\&quot;multi\&quot;:false,\&quot;captcha\&quot;:false,\&quot;options\&quot;:[\&quot;Character body 1\&quot;,\&quot;Character body 2\&quot;,\&quot;Character body 3\&quot;,\&quot;Character body 4\&quot;],\&quot;pc\&quot;:0,\&quot;votes\&quot;:[0,0,0,0],\&quot;id\&quot;:5571905}</span>').text(), {}]);
+    });
+</script>
+
+
+
+</body></html>

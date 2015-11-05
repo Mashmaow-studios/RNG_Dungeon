@@ -1,0 +1,21 @@
+Marcus:
+-Programera
+
+Calle:
+-3D Modeller
+-Textures (halvt)
+-Scripting
+-GUI Design
+-GFX Design
+-Musik och Ljud
+
+Lucas:
+-Under utbildning
+
+Jonte:
+-Webbdesign
+
+Edgars:
+- 3D modeller
+- Texturer
+- 3D animator
