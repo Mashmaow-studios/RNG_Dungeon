@@ -3,11 +3,11 @@ using System.Collections;
 
 public class PlayerStats : MonoBehaviour {
 	
-	private int level = 1, xp, xpNeeded;
+	private int level = 1, xp, xpNeeded, pastXpNeeded = 1000;
 	private int health = 10000, mana = 1000;
 
 	void Start () {
-		xpNeeded = (level * 400) + 1000;
+		xpNeeded = pastXpNeeded + level * 500;
 	}
 
 	void Update () {
@@ -21,7 +21,7 @@ public class PlayerStats : MonoBehaviour {
 
 	void LevelUp () {
 		xp -= xpNeeded;
-		xpNeeded = (level * 400) + 1000;
+		xpNeeded = pastXpNeeded + level * 500;
 	}
 
 	void Dead () {
