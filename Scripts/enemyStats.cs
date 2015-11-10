@@ -30,14 +30,14 @@ public class enemyStats : MonoBehaviour {
 		} 
 	}
 
-	void Dead () {
-		Destroy(gameObject);
-	}
-
 	void Level () {
 		level = Random.Range (caveLevel - 2, caveLevel + 1);
 		if (level < 1) {
 			level = 1;
 		}
+	}
+
+	void Dead () {
+		Destroy(gameObject);
 	}
 }
