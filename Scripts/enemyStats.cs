@@ -37,6 +37,10 @@ public class enemyStats : MonoBehaviour {
 		}
 	}
 
+	function ApplyDamage (int receiveDamage) {
+		health -= receiveDamage - (armor * 10);
+	}
+
 	void Dead () {
 		Destroy(gameObject);
 	}
