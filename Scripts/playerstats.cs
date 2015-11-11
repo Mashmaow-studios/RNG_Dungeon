@@ -17,7 +17,7 @@ public class PlayerStats : MonoBehaviour {
 		if(xp >= xpNeeded)
 			LevelUp();
 		
-		if(Input.GetButtonDown("e")) {
+		if(Input.GetKeyDown("e")) {
 			health -= 1000;
 		}
 	}
