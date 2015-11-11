@@ -42,6 +42,34 @@ public class enemyStats : MonoBehaviour {
 	}
 
 	void Dead () {
-		Destroy(gameObject);
-	}
+		int lootDrop = 0;
+		int dropAmount = 0;
+		
+		dropAmount = Random.Range(0, 4);
+		
+		for(int i = 0; i < dropAmount; i++) {
+			lootDrop = Random.Range(0, 10001);
+			
+			if(lootDrop <= 5 && dropLoot.godlikeDrops.Length > 0) {
+				
+			}
+			else if(lootDrop <= 50 && dropLoot.legendaryDrop.Length > 0) {
+				
+			} 
+			else if(lootDrop <= 250 && dropLoot.epicDrops.Length > 0) {
+				
+			} 
+			else if(lootDrop <= 1000 && dropLoot.rareDrops.Length > 0) {
+				
+			} 
+			else if(lootDrop <= 3000 && dropLoot.uncommonDrops.Length > 0) {
+				
+			} 
+			else {
+				
+			}
+		}
+		
+		Destroy (gameObject);
+	}	
 }
