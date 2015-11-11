@@ -8,6 +8,7 @@ public class PlayerStats : MonoBehaviour {
 	
 	void Start () {
 		xpNeeded = pastXpNeeded + level * 500;
+		Time.timeScale = 1;
 	}
 	
 	void Update () {
@@ -16,10 +17,7 @@ public class PlayerStats : MonoBehaviour {
 		
 		if(xp >= xpNeeded)
 			LevelUp();
-		
-		if(Input.GetKeyDown("e")) {
-			health -= 1000;
-		}
+
 	}
 	
 	void LevelUp () {
@@ -38,7 +36,6 @@ public class PlayerStats : MonoBehaviour {
 	
 	void OnGUI () {
 		if(Time.timeScale == 0 && GUI.Button(new Rect(Screen.width/2-Screen.width/6, Screen.height/2-Screen.height/6, Screen.width/3, Screen.height/3), "Restart")) {
-			Time.timeScale = 1;
 			Application.LoadLevel(Application.loadedLevel);
 		}
 		
