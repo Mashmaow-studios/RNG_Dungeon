@@ -13,6 +13,12 @@ public class enemyStats : MonoBehaviour {
 	public EnemyType enemyType;
 	private int caveLevel;
 
+	[System.Serializable]
+	public class DropLoot {
+		//The items the enemy can drop set by item id aka the position of the item in the item list -1
+		public int[] commonDrops, uncommonDrops, rareDrops, epicDrops, legendaryDrop, godlikeDrops;
+	}
+
 	public enum EnemyType {
 		MeleePhysical,
 		MeleeMagical,
