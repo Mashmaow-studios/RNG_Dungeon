@@ -37,7 +37,7 @@ public class enemyStats : MonoBehaviour {
 		}
 	}
 
-	function ApplyDamage (int receiveDamage) {
+	void ApplyDamage (int receiveDamage) {
 		health -= receiveDamage - (armor * 10);
 	}
 
