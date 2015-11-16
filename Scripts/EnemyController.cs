@@ -139,6 +139,6 @@ public class EnemyController : Item {
 			}
 		}
 
-		Destroy(gameObject);
+		Destroy (gameObject);
 	}	
 }
