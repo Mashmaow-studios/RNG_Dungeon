@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{2999BB4B-9A82-B2DF-93CC-4EB9585BCA41}") = "RNG_Dungeon", "Assembly-CSharp.csproj", "{160741B7-EC9C-9FCE-560E-BD58B9B5543D}"
 EndProject
+Project("{2999BB4B-9A82-B2DF-93CC-4EB9585BCA41}") = "RNG_Dungeon", "Assembly-UnityScript.unityproj", "{7AB5285B-59B3-31B2-5DA0-5EB5ED424909}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,11 +15,15 @@ Global
 		{160741B7-EC9C-9FCE-560E-BD58B9B5543D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{160741B7-EC9C-9FCE-560E-BD58B9B5543D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{160741B7-EC9C-9FCE-560E-BD58B9B5543D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AB5285B-59B3-31B2-5DA0-5EB5ED424909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AB5285B-59B3-31B2-5DA0-5EB5ED424909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AB5285B-59B3-31B2-5DA0-5EB5ED424909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AB5285B-59B3-31B2-5DA0-5EB5ED424909}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
+							GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -36,4 +42,5 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
+
 EndGlobal
