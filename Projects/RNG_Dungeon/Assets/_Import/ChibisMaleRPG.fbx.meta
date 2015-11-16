@@ -1,0 +1,701 @@
+fileFormatVersion: 2
+guid: 72e30102e196ca74d9adf5b02deceb46
+timeCreated: 1447704102
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Ankle.L
+    100002: Ankle.L_end
+    100004: Ankle.R
+    100006: Ankle.R_end
+    100008: Armature
+    100010: CharacterController
+    100012: Chest
+    100014: //RootNode
+    100016: Cube
+    100018: Cube.002
+    100020: Cube.003
+    100022: Cube.004
+    100024: Cube.007
+    100026: ElbowIK.L
+    100028: ElbowIK.L_end
+    100030: ElbowIK.R
+    100032: ElbowIK.R_end
+    100034: Foot.L
+    100036: Foot.R
+    100038: Foot_controller.L
+    100040: Foot_controller.R
+    100042: Hand.L
+    100044: Hand.R
+    100046: HandIK.L
+    100048: HandIK.L_end
+    100050: HandIK.R
+    100052: HandIK.R_end
+    100054: Head
+    100056: Head_end
+    100058: KneeIK.L
+    100060: KneeIK.L_end
+    100062: KneeIK.R
+    100064: KneeIK.R_end
+    100066: LowerArm.L
+    100068: LowerArm.R
+    100070: LowerLeg.L
+    100072: LowerLeg.L_end
+    100074: LowerLeg.R
+    100076: LowerLeg.R_end
+    100078: Neck
+    100080: shoulder.L
+    100082: shoulder.R
+    100084: Spine
+    100086: Thumb.L
+    100088: Thumb.L_end
+    100090: Thumb.R
+    100092: Thumb.R_end
+    100094: UpperArm.L
+    100096: UpperArm.R
+    100098: UpperLeg.L
+    100100: UpperLeg.R
+    400000: Ankle.L
+    400002: Ankle.L_end
+    400004: Ankle.R
+    400006: Ankle.R_end
+    400008: Armature
+    400010: CharacterController
+    400012: Chest
+    400014: //RootNode
+    400016: Cube
+    400018: Cube.002
+    400020: Cube.003
+    400022: Cube.004
+    400024: Cube.007
+    400026: ElbowIK.L
+    400028: ElbowIK.L_end
+    400030: ElbowIK.R
+    400032: ElbowIK.R_end
+    400034: Foot.L
+    400036: Foot.R
+    400038: Foot_controller.L
+    400040: Foot_controller.R
+    400042: Hand.L
+    400044: Hand.R
+    400046: HandIK.L
+    400048: HandIK.L_end
+    400050: HandIK.R
+    400052: HandIK.R_end
+    400054: Head
+    400056: Head_end
+    400058: KneeIK.L
+    400060: KneeIK.L_end
+    400062: KneeIK.R
+    400064: KneeIK.R_end
+    400066: LowerArm.L
+    400068: LowerArm.R
+    400070: LowerLeg.L
+    400072: LowerLeg.L_end
+    400074: LowerLeg.R
+    400076: LowerLeg.R_end
+    400078: Neck
+    400080: shoulder.L
+    400082: shoulder.R
+    400084: Spine
+    400086: Thumb.L
+    400088: Thumb.L_end
+    400090: Thumb.R
+    400092: Thumb.R_end
+    400094: UpperArm.L
+    400096: UpperArm.R
+    400098: UpperLeg.L
+    400100: UpperLeg.R
+    2300000: Cube.004
+    3300000: Cube.004
+    4300000: Cube.004
+    4300002: Cube
+    4300004: Cube.003
+    4300006: Cube.002
+    4300008: Cube.007
+    7400000: Armature|AttackAnim
+    7400002: Armature|AttackAnim.2
+    7400004: Armature|Idle Anim
+    7400006: Armature|Idle2
+    7400008: Armature|RunningAnim
+    7400010: Cube.004|Idle2
+    9500000: //RootNode
+    13700000: Cube
+    13700002: Cube.002
+    13700004: Cube.003
+    13700006: Cube.007
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|AttackAnim
+      takeName: Armature|AttackAnim
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 0
+      - path: Armature/CharacterController
+        weight: 0
+      - path: Armature/CharacterController/ElbowIK.L
+        weight: 1
+      - path: Armature/CharacterController/ElbowIK.L/ElbowIK.L_end
+        weight: 1
+      - path: Armature/CharacterController/ElbowIK.R
+        weight: 1
+      - path: Armature/CharacterController/ElbowIK.R/ElbowIK.R_end
+        weight: 1
+      - path: Armature/CharacterController/Foot_controller.L
+        weight: 0
+      - path: Armature/CharacterController/Foot_controller.L/Foot.L
+        weight: 0
+      - path: Armature/CharacterController/Foot_controller.L/Foot.L/Ankle.L
+        weight: 0
+      - path: Armature/CharacterController/Foot_controller.L/Foot.L/Ankle.L/Ankle.L_end
+        weight: 0
+      - path: Armature/CharacterController/Foot_controller.R
+        weight: 0
+      - path: Armature/CharacterController/Foot_controller.R/Foot.R
+        weight: 0
+      - path: Armature/CharacterController/Foot_controller.R/Foot.R/Ankle.R
+        weight: 0
+      - path: Armature/CharacterController/Foot_controller.R/Foot.R/Ankle.R/Ankle.R_end
+        weight: 0
+      - path: Armature/CharacterController/HandIK.L
+        weight: 1
+      - path: Armature/CharacterController/HandIK.L/HandIK.L_end
+        weight: 1
+      - path: Armature/CharacterController/HandIK.R
+        weight: 1
+      - path: Armature/CharacterController/HandIK.R/Cube.004
+        weight: 1
+      - path: Armature/CharacterController/HandIK.R/HandIK.R_end
+        weight: 1
+      - path: Armature/CharacterController/KneeIK.L
+        weight: 0
+      - path: Armature/CharacterController/KneeIK.L/KneeIK.L_end
+        weight: 0
+      - path: Armature/CharacterController/KneeIK.R
+        weight: 0
+      - path: Armature/CharacterController/KneeIK.R/KneeIK.R_end
+        weight: 0
+      - path: Armature/CharacterController/Spine
+        weight: 0
+      - path: Armature/CharacterController/Spine/Chest
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/Neck
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.L
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.L/UpperArm.L
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.R
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.R/UpperArm.R
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: Armature/CharacterController/Spine/UpperLeg.L
+        weight: 0
+      - path: Armature/CharacterController/Spine/UpperLeg.L/LowerLeg.L
+        weight: 0
+      - path: Armature/CharacterController/Spine/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 0
+      - path: Armature/CharacterController/Spine/UpperLeg.R
+        weight: 0
+      - path: Armature/CharacterController/Spine/UpperLeg.R/LowerLeg.R
+        weight: 0
+      - path: Armature/CharacterController/Spine/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 0
+      - path: Cube
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Cube.003
+        weight: 1
+      - path: Cube.007
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|AttackAnim.2
+      takeName: Armature|AttackAnim.2
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 0
+      - path: Armature/CharacterController
+        weight: 0
+      - path: Armature/CharacterController/ElbowIK.L
+        weight: 1
+      - path: Armature/CharacterController/ElbowIK.L/ElbowIK.L_end
+        weight: 1
+      - path: Armature/CharacterController/ElbowIK.R
+        weight: 1
+      - path: Armature/CharacterController/ElbowIK.R/ElbowIK.R_end
+        weight: 1
+      - path: Armature/CharacterController/Foot_controller.L
+        weight: 0
+      - path: Armature/CharacterController/Foot_controller.L/Foot.L
+        weight: 0
+      - path: Armature/CharacterController/Foot_controller.L/Foot.L/Ankle.L
+        weight: 0
+      - path: Armature/CharacterController/Foot_controller.L/Foot.L/Ankle.L/Ankle.L_end
+        weight: 0
+      - path: Armature/CharacterController/Foot_controller.R
+        weight: 0
+      - path: Armature/CharacterController/Foot_controller.R/Foot.R
+        weight: 0
+      - path: Armature/CharacterController/Foot_controller.R/Foot.R/Ankle.R
+        weight: 0
+      - path: Armature/CharacterController/Foot_controller.R/Foot.R/Ankle.R/Ankle.R_end
+        weight: 0
+      - path: Armature/CharacterController/HandIK.L
+        weight: 1
+      - path: Armature/CharacterController/HandIK.L/HandIK.L_end
+        weight: 1
+      - path: Armature/CharacterController/HandIK.R
+        weight: 1
+      - path: Armature/CharacterController/HandIK.R/Cube.004
+        weight: 1
+      - path: Armature/CharacterController/HandIK.R/HandIK.R_end
+        weight: 1
+      - path: Armature/CharacterController/KneeIK.L
+        weight: 0
+      - path: Armature/CharacterController/KneeIK.L/KneeIK.L_end
+        weight: 0
+      - path: Armature/CharacterController/KneeIK.R
+        weight: 0
+      - path: Armature/CharacterController/KneeIK.R/KneeIK.R_end
+        weight: 0
+      - path: Armature/CharacterController/Spine
+        weight: 0
+      - path: Armature/CharacterController/Spine/Chest
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/Neck
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.L
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.L/UpperArm.L
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.R
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.R/UpperArm.R
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: Armature/CharacterController/Spine/UpperLeg.L
+        weight: 0
+      - path: Armature/CharacterController/Spine/UpperLeg.L/LowerLeg.L
+        weight: 0
+      - path: Armature/CharacterController/Spine/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 0
+      - path: Armature/CharacterController/Spine/UpperLeg.R
+        weight: 0
+      - path: Armature/CharacterController/Spine/UpperLeg.R/LowerLeg.R
+        weight: 0
+      - path: Armature/CharacterController/Spine/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 0
+      - path: Cube
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Cube.003
+        weight: 1
+      - path: Cube.007
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|Idle Anim
+      takeName: Armature|Idle Anim
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/CharacterController
+        weight: 1
+      - path: Armature/CharacterController/ElbowIK.L
+        weight: 1
+      - path: Armature/CharacterController/ElbowIK.L/ElbowIK.L_end
+        weight: 1
+      - path: Armature/CharacterController/ElbowIK.R
+        weight: 1
+      - path: Armature/CharacterController/ElbowIK.R/ElbowIK.R_end
+        weight: 1
+      - path: Armature/CharacterController/Foot_controller.L
+        weight: 1
+      - path: Armature/CharacterController/Foot_controller.L/Foot.L
+        weight: 1
+      - path: Armature/CharacterController/Foot_controller.L/Foot.L/Ankle.L
+        weight: 1
+      - path: Armature/CharacterController/Foot_controller.L/Foot.L/Ankle.L/Ankle.L_end
+        weight: 1
+      - path: Armature/CharacterController/Foot_controller.R
+        weight: 1
+      - path: Armature/CharacterController/Foot_controller.R/Foot.R
+        weight: 1
+      - path: Armature/CharacterController/Foot_controller.R/Foot.R/Ankle.R
+        weight: 1
+      - path: Armature/CharacterController/Foot_controller.R/Foot.R/Ankle.R/Ankle.R_end
+        weight: 1
+      - path: Armature/CharacterController/HandIK.L
+        weight: 1
+      - path: Armature/CharacterController/HandIK.L/HandIK.L_end
+        weight: 1
+      - path: Armature/CharacterController/HandIK.R
+        weight: 1
+      - path: Armature/CharacterController/HandIK.R/Cube.004
+        weight: 1
+      - path: Armature/CharacterController/HandIK.R/HandIK.R_end
+        weight: 1
+      - path: Armature/CharacterController/KneeIK.L
+        weight: 1
+      - path: Armature/CharacterController/KneeIK.L/KneeIK.L_end
+        weight: 1
+      - path: Armature/CharacterController/KneeIK.R
+        weight: 1
+      - path: Armature/CharacterController/KneeIK.R/KneeIK.R_end
+        weight: 1
+      - path: Armature/CharacterController/Spine
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/Neck
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.L
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.L/UpperArm.L
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.R
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.R/UpperArm.R
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: Armature/CharacterController/Spine/UpperLeg.L
+        weight: 1
+      - path: Armature/CharacterController/Spine/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/CharacterController/Spine/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature/CharacterController/Spine/UpperLeg.R
+        weight: 1
+      - path: Armature/CharacterController/Spine/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/CharacterController/Spine/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Cube.003
+        weight: 1
+      - path: Cube.007
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|RunningAnim
+      takeName: Armature|RunningAnim
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/CharacterController
+        weight: 1
+      - path: Armature/CharacterController/ElbowIK.L
+        weight: 1
+      - path: Armature/CharacterController/ElbowIK.L/ElbowIK.L_end
+        weight: 1
+      - path: Armature/CharacterController/ElbowIK.R
+        weight: 1
+      - path: Armature/CharacterController/ElbowIK.R/ElbowIK.R_end
+        weight: 1
+      - path: Armature/CharacterController/Foot_controller.L
+        weight: 1
+      - path: Armature/CharacterController/Foot_controller.L/Foot.L
+        weight: 1
+      - path: Armature/CharacterController/Foot_controller.L/Foot.L/Ankle.L
+        weight: 1
+      - path: Armature/CharacterController/Foot_controller.L/Foot.L/Ankle.L/Ankle.L_end
+        weight: 1
+      - path: Armature/CharacterController/Foot_controller.R
+        weight: 1
+      - path: Armature/CharacterController/Foot_controller.R/Foot.R
+        weight: 1
+      - path: Armature/CharacterController/Foot_controller.R/Foot.R/Ankle.R
+        weight: 1
+      - path: Armature/CharacterController/Foot_controller.R/Foot.R/Ankle.R/Ankle.R_end
+        weight: 1
+      - path: Armature/CharacterController/HandIK.L
+        weight: 1
+      - path: Armature/CharacterController/HandIK.L/HandIK.L_end
+        weight: 1
+      - path: Armature/CharacterController/HandIK.R
+        weight: 1
+      - path: Armature/CharacterController/HandIK.R/Cube.004
+        weight: 1
+      - path: Armature/CharacterController/HandIK.R/HandIK.R_end
+        weight: 1
+      - path: Armature/CharacterController/KneeIK.L
+        weight: 1
+      - path: Armature/CharacterController/KneeIK.L/KneeIK.L_end
+        weight: 1
+      - path: Armature/CharacterController/KneeIK.R
+        weight: 1
+      - path: Armature/CharacterController/KneeIK.R/KneeIK.R_end
+        weight: 1
+      - path: Armature/CharacterController/Spine
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/Neck
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.L
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.L/UpperArm.L
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.R
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.R/UpperArm.R
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: Armature/CharacterController/Spine/Chest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: Armature/CharacterController/Spine/UpperLeg.L
+        weight: 1
+      - path: Armature/CharacterController/Spine/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/CharacterController/Spine/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature/CharacterController/Spine/UpperLeg.R
+        weight: 1
+      - path: Armature/CharacterController/Spine/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/CharacterController/Spine/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Cube.003
+        weight: 1
+      - path: Cube.007
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
