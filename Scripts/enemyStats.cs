@@ -14,6 +14,7 @@ public class enemyStats : MonoBehaviour {
 	public int health, level, armor;
 	public int attackSpeed, damage;
 	public int xpDrop;
+	public int escapeHealth = 20;
 	public EnemyType enemyType;
 	public bool boss = false;
 
@@ -46,6 +47,13 @@ public class enemyStats : MonoBehaviour {
 
 	void ApplyDamage (int receiveDamage) {
 		health -= receiveDamage - (armor * 10);
+
+		if(health < health*0.escapeHealth) {
+			gameObject.SendMessage ("Escape", true, SendMessageOptions.DontRequireReceiver);
+		}
+		else {
+			gameObject.SendMessage ("Escape", false, SendMessageOptions.DontRequireReceiver);
+		}
 	}
 
 	void Dead () {
