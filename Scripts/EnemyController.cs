@@ -15,7 +15,11 @@ public class EnemyController : Item {
 	public bool aggressiv = false;
 	public DropLoot dropLoot;
 
-	private NavMeshAgent navAgent;
+// Awesome Dynamic AI movement peramiters
+  public float agroRange = 10000f;
+	public float agroBuffer = 2000f;
+	public float speed = 2f;
+
 	private Animator animator;
 	private Transform player;
 	private Projector projector;
@@ -25,13 +29,12 @@ public class EnemyController : Item {
 	internal bool enraged = false;
 
 	void Start () {
-		navAgent = GetComponent<NavMeshAgent>();
 		animator = GetComponent<Animator>();
 		player = GameObject.FindWithTag("Player").transform;
 		projector = GetComponentInChildren<Projector>();
 		maxHealth = health;
 	}
-	
+
 
 	void Update () {
 		if(aggressiv)
@@ -95,11 +98,27 @@ public class EnemyController : Item {
 		{
 			animatorManager("Attack", 2, 0, false);
 		}
-		
-	}
 
-	public void Movement (Vector3 targetPosition) {
-		navAgent.SetDestination(targetPosition);
+	}
+   // Where the magic happens
+  public void FixedUpdate() {
+		// Getting current position for player and Mr.badguy.
+		Vector3 playerPos = player;
+		Vector3 enemyPos = GetComponent<Rigidbody>().position;
+		// Getting a Vector length for Mr.badguy to move to.
+		float xMov = playerPos.x - enemyPos.x;
+		float zMov = playerPos.z - enemyPos.z;
+		Vector3 movement = new Vector3(xMov,0f,zMov);
+		// If Player is in range and not TOO close, move to player (No navmesh, we want it Dynamic!)
+		if (Vector3.Distance(playerPos,enemyPos) < agroRange & Vector3.Distance(playerPos,enemyPos) > agroBuffer )
+		{
+			GetComponent<Rigidbody>().velocity = movement * speed;
+		}
+    else
+		{
+			// If at destination, slow down.
+			GetComponent<Rigidbody>().AddForce(-GetComponent<Rigidbody>().velocity);
+		}
 	}
 
 	void animatorManager (string animation, int type, int value, bool boolValue) {
@@ -124,21 +143,21 @@ public class EnemyController : Item {
 			}
 			else if(lootDrop <= 50 && dropLoot.legendaryDrop.Length > 0) {
 
-			} 
+			}
 			else if(lootDrop <= 250 && dropLoot.epicDrops.Length > 0) {
 
-			} 
+			}
 			else if(lootDrop <= 1000 && dropLoot.rareDrops.Length > 0) {
-				
-			} 
+
+			}
 			else if(lootDrop <= 3000 && dropLoot.uncommonDrops.Length > 0) {
-				
-			} 
+
+			}
 			else {
-				
+
 			}
 		}
 
 		Destroy(gameObject);
-	}	
+	}
 }
