@@ -8,12 +8,14 @@ Calle:
 -GUI Design
 -GFX Design
 -Musik och Ljud
+-inte här
 
 Lucas:
 -Under utbildning
 
-Jonte:
+Joakim:
 -Webbdesign
+-progamering
 
 Edgars:
 - 3D modeller
