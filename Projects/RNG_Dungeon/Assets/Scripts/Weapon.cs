@@ -18,13 +18,14 @@ public class Weapon : MonoBehaviour {
 	}
 
 	void Update () {
-		armsTransitionInfo = animator.GetAnimatorTransitionInfo(0);
+		armsTransitionInfo = animator.GetAnimatorTransitionInfo(1);
 
-		if(Input.GetMouseButton(0)) {
+		if(Input.GetMouseButton(0) && !attacking) {
 			Attack();
 		}
 
-		if(armsTransitionInfo.nameHash == Animator.StringToHash("Swing -> idle")) {
+		if(armsTransitionInfo.nameHash == Animator.StringToHash("EndedAttack -> Idle") ||
+		   armsTransitionInfo.nameHash == Animator.StringToHash("EndedAttack -> Run")) {
 			attacking = false;
 		}
 
