@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 72e30102e196ca74d9adf5b02deceb46
-timeCreated: 1447704102
+timeCreated: 1447878845
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
@@ -114,12 +114,14 @@ ModelImporter:
     4300004: Cube.003
     4300006: Cube.002
     4300008: Cube.007
-    7400000: Armature|AttackAnim
-    7400002: Armature|AttackAnim.2
-    7400004: Armature|Idle Anim
+    7400000: Attack 2
+    7400002: Attack 1
+    7400004: Idle
     7400006: Armature|Idle2
-    7400008: Armature|RunningAnim
+    7400008: Run
     7400010: Cube.004|Idle2
+    7400012: IdleTop
+    7400014: RunTop
     9500000: //RootNode
     13700000: Cube
     13700002: Cube.002
@@ -134,11 +136,15 @@ ModelImporter:
     bakeSimulation: 0
     optimizeGameObjects: 0
     motionNodeName: 
-    animationImportErrors: 
+    animationImportErrors: 'MuscleClip ''ChibisMaleRPG'' conversion failed: Transform
+      ''LowerLeg.L'' is not an ancestor of ''Foot.L''
+
+
+'
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: .5
     animationPositionError: .5
     animationScaleError: .5
@@ -146,7 +152,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: Armature|AttackAnim
+      name: Attack 1
       takeName: Armature|AttackAnim
       firstFrame: 0
       lastFrame: 21
@@ -172,9 +178,9 @@ ModelImporter:
       - path: 
         weight: 1
       - path: Armature
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/ElbowIK.L
         weight: 1
       - path: Armature/CharacterController/ElbowIK.L/ElbowIK.L_end
@@ -184,21 +190,21 @@ ModelImporter:
       - path: Armature/CharacterController/ElbowIK.R/ElbowIK.R_end
         weight: 1
       - path: Armature/CharacterController/Foot_controller.L
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/Foot_controller.L/Foot.L
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/Foot_controller.L/Foot.L/Ankle.L
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/Foot_controller.L/Foot.L/Ankle.L/Ankle.L_end
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/Foot_controller.R
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/Foot_controller.R/Foot.R
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/Foot_controller.R/Foot.R/Ankle.R
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/Foot_controller.R/Foot.R/Ankle.R/Ankle.R_end
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/HandIK.L
         weight: 1
       - path: Armature/CharacterController/HandIK.L/HandIK.L_end
@@ -210,15 +216,15 @@ ModelImporter:
       - path: Armature/CharacterController/HandIK.R/HandIK.R_end
         weight: 1
       - path: Armature/CharacterController/KneeIK.L
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/KneeIK.L/KneeIK.L_end
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/KneeIK.R
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/KneeIK.R/KneeIK.R_end
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/Spine
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/Spine/Chest
         weight: 1
       - path: Armature/CharacterController/Spine/Chest/Neck
@@ -252,17 +258,17 @@ ModelImporter:
       - path: Armature/CharacterController/Spine/Chest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb.R/Thumb.R_end
         weight: 1
       - path: Armature/CharacterController/Spine/UpperLeg.L
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/Spine/UpperLeg.L/LowerLeg.L
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/Spine/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/Spine/UpperLeg.R
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/Spine/UpperLeg.R/LowerLeg.R
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/Spine/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
-        weight: 0
+        weight: 1
       - path: Cube
         weight: 1
       - path: Cube.002
@@ -274,7 +280,7 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: Armature|AttackAnim.2
+      name: Attack 2
       takeName: Armature|AttackAnim.2
       firstFrame: 0
       lastFrame: 24
@@ -300,9 +306,9 @@ ModelImporter:
       - path: 
         weight: 1
       - path: Armature
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/ElbowIK.L
         weight: 1
       - path: Armature/CharacterController/ElbowIK.L/ElbowIK.L_end
@@ -312,21 +318,21 @@ ModelImporter:
       - path: Armature/CharacterController/ElbowIK.R/ElbowIK.R_end
         weight: 1
       - path: Armature/CharacterController/Foot_controller.L
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/Foot_controller.L/Foot.L
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/Foot_controller.L/Foot.L/Ankle.L
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/Foot_controller.L/Foot.L/Ankle.L/Ankle.L_end
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/Foot_controller.R
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/Foot_controller.R/Foot.R
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/Foot_controller.R/Foot.R/Ankle.R
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/Foot_controller.R/Foot.R/Ankle.R/Ankle.R_end
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/HandIK.L
         weight: 1
       - path: Armature/CharacterController/HandIK.L/HandIK.L_end
@@ -338,15 +344,15 @@ ModelImporter:
       - path: Armature/CharacterController/HandIK.R/HandIK.R_end
         weight: 1
       - path: Armature/CharacterController/KneeIK.L
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/KneeIK.L/KneeIK.L_end
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/KneeIK.R
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/KneeIK.R/KneeIK.R_end
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/Spine
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/Spine/Chest
         weight: 1
       - path: Armature/CharacterController/Spine/Chest/Neck
@@ -380,17 +386,17 @@ ModelImporter:
       - path: Armature/CharacterController/Spine/Chest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb.R/Thumb.R_end
         weight: 1
       - path: Armature/CharacterController/Spine/UpperLeg.L
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/Spine/UpperLeg.L/LowerLeg.L
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/Spine/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/Spine/UpperLeg.R
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/Spine/UpperLeg.R/LowerLeg.R
-        weight: 0
+        weight: 1
       - path: Armature/CharacterController/Spine/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
-        weight: 0
+        weight: 1
       - path: Cube
         weight: 1
       - path: Cube.002
@@ -402,7 +408,7 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: Armature|Idle Anim
+      name: Idle
       takeName: Armature|Idle Anim
       firstFrame: 0
       lastFrame: 30
@@ -530,7 +536,7 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: Armature|RunningAnim
+      name: Run
       takeName: Armature|RunningAnim
       firstFrame: 0
       lastFrame: 21
