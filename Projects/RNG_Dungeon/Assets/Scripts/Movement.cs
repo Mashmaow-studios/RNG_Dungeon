@@ -14,14 +14,20 @@ public class Movement : MonoBehaviour {
 	private Animator animator;
 
 	void Start () {
-	
+		animator = gameObject.GetComponent<Animator>();
 	}
 
 	void Update () {
 		CharacterController controller = GetComponent<CharacterController>();
 
+		if(Input.GetAxis("Vertical") != 0) {
+			animator.SetFloat("Speed", 1.0f);
+		} else {
+			animator.SetFloat("Speed", 0.0f);
+		}
+
 		if(canMove && controller.isGrounded) {
-			moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+			moveDirection = new Vector3(0, 0, Input.GetAxis("Vertical"));
 			moveDirection = transform.TransformDirection(moveDirection);
 			moveDirection *= speed;
 
